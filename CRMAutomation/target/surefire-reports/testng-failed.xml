@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="com.CRM.TestCase.DashboardPageTest">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="UserLogout"/>
+        </methods>
+      </class> <!-- com.CRM.TestCase.DashboardPageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
