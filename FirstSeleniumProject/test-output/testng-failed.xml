@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DemoTestNG.LoginGetUserIdAssignment">
+      <class name="DemoTestNG.FirstDemoTestNG">
         <methods>
-          <include name="loginAgain" invocation-numbers="0"/>
-          <include name="fetchExcelData"/>
-          <include name="afterTest"/>
-          <include name="deleteRecord"/>
-          <include name="beforeTest"/>
+          <include name="footer"/>
+          <include name="a3"/>
+          <include name="a1"/>
+          <include name="head"/>
         </methods>
-      </class> <!-- DemoTestNG.LoginGetUserIdAssignment -->
+      </class> <!-- DemoTestNG.FirstDemoTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

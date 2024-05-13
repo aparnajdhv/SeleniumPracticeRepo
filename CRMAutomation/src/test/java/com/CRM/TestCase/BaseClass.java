@@ -28,4 +28,11 @@ public class BaseClass {
 		dp=new DashboardPage(driver);
 		lp=new LoginPage(driver);
 	}
+	
+	@AfterTest
+	public void closeDriver()
+	{
+		driver.quit();
+	}
+	
 }
