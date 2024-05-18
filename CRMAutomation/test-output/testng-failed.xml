@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Test2(failed)">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="EdgeParallerTestExecution(failed)">
+    <parameter name="browserName" value="edge"/>
     <classes>
-      <class name="com.CRM.TestCase.DashboardPageTest">
+      <class name="seliniumGridUsingDocker.ParallelTest">
         <methods>
-          <include name="browserSetUp"/>
-          <include name="UserLogout"/>
+          <include name="ParallelBrowserExecution" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.CRM.TestCase.DashboardPageTest -->
+      </class> <!-- seliniumGridUsingDocker.ParallelTest -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- EdgeParallerTestExecution(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeParallerTestExecution(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="seliniumGridUsingDocker.ParallelTest">
+        <methods>
+          <include name="ParallelBrowserExecution" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seliniumGridUsingDocker.ParallelTest -->
+    </classes>
+  </test> <!-- ChromeParallerTestExecution(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxParallerTestExecution(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="seliniumGridUsingDocker.ParallelTest">
+        <methods>
+          <include name="ParallelBrowserExecution" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seliniumGridUsingDocker.ParallelTest -->
+    </classes>
+  </test> <!-- FirefoxParallerTestExecution(failed) -->
 </suite> <!-- Failed suite [Suite] -->

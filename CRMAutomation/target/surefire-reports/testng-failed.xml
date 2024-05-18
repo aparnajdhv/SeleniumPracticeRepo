@@ -8,7 +8,6 @@
           <include name="browserSetUp"/>
           <include name="closeDriver"/>
           <include name="validateDashboard"/>
-          <include name="UserLogout"/>
         </methods>
       </class> <!-- com.CRM.TestCase.DashboardPageTest -->
     </classes>

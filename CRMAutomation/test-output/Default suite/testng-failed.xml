@@ -6,7 +6,8 @@
       <class name="com.CRM.TestCase.DashboardPageTest">
         <methods>
           <include name="browserSetUp"/>
-          <include name="UserLogout"/>
+          <include name="closeDriver"/>
+          <include name="validateDashboard"/>
         </methods>
       </class> <!-- com.CRM.TestCase.DashboardPageTest -->
     </classes>
