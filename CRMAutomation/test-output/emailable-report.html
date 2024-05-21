@@ -9,122 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">EdgeParallerTestExecution</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,272</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">ChromeParallerTestExecution</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,274</td><td></td><td></td></tr>
-<tr><td><a href="#t2">FirefoxParallerTestExecution</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">1,274</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">3,820</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">64,827</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">test2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">79,163</td><td></td><td></td></tr>
+<tr><td><a href="#t2">test3</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">79,447</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">223,437</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">EdgeParallerTestExecution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">seliniumGridUsingDocker.ParallelTest</td><td><a href="#m0">ParallelBrowserExecution</a></td><td rowspan="1">1715788592868</td><td rowspan="1">1163</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">ChromeParallerTestExecution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">seliniumGridUsingDocker.ParallelTest</td><td><a href="#m1">ParallelBrowserExecution</a></td><td rowspan="1">1715788592868</td><td rowspan="1">1163</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">FirefoxParallerTestExecution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">seliniumGridUsingDocker.ParallelTest</td><td><a href="#m2">ParallelBrowserExecution</a></td><td rowspan="1">1715788592868</td><td rowspan="1">1162</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">seliniumGridUsingDocker.ParallelTest</td><td><a href="#m0">ParallelBrowserExecution</a></td><td rowspan="1">1716291868113</td><td rowspan="1">64652</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">seliniumGridUsingDocker.ParallelTest</td><td><a href="#m1">ParallelBrowserExecution</a></td><td rowspan="1">1716291868114</td><td rowspan="1">79002</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">seliniumGridUsingDocker.ParallelTest</td><td><a href="#m2">ParallelBrowserExecution</a></td><td rowspan="1">1716291868112</td><td rowspan="1">79293</td></tr></tbody>
 </table>
-<h2>EdgeParallerTestExecution</h2><h3 id="m0">seliniumGridUsingDocker.ParallelTest#ParallelBrowserExecution</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;APARNA&apos;, ip: &apos;192.168.1.3&apos;
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at seliniumGridUsingDocker.ParallelTest.ParallelBrowserExecution(ParallelTest.java:37)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalArgumentException: unsupported URI http:localhost:4444/session
-	at java.net.http/jdk.internal.net.http.common.Utils.newIAE(Utils.java:286)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.checkURI(HttpRequestBuilderImpl.java:85)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.uri(HttpRequestBuilderImpl.java:71)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.uri(HttpRequestBuilderImpl.java:43)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpMessages.createRequest(JdkHttpMessages.java:70)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:371)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 24 more
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>ChromeParallerTestExecution</h2><h3 id="m1">seliniumGridUsingDocker.ParallelTest#ParallelBrowserExecution</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;APARNA&apos;, ip: &apos;192.168.1.3&apos;
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}]}]
-Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at seliniumGridUsingDocker.ParallelTest.ParallelBrowserExecution(ParallelTest.java:25)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalArgumentException: unsupported URI http:localhost:4444/session
-	at java.net.http/jdk.internal.net.http.common.Utils.newIAE(Utils.java:286)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.checkURI(HttpRequestBuilderImpl.java:85)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.uri(HttpRequestBuilderImpl.java:71)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.uri(HttpRequestBuilderImpl.java:43)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpMessages.createRequest(JdkHttpMessages.java:70)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:371)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 24 more
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>FirefoxParallerTestExecution</h2><h3 id="m2">seliniumGridUsingDocker.ParallelTest#ParallelBrowserExecution</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;APARNA&apos;, ip: &apos;192.168.1.3&apos;
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
-	at seliniumGridUsingDocker.ParallelTest.ParallelBrowserExecution(ParallelTest.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-Caused by: java.lang.IllegalArgumentException: unsupported URI http:localhost:4444/session
-	at java.net.http/jdk.internal.net.http.common.Utils.newIAE(Utils.java:286)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.checkURI(HttpRequestBuilderImpl.java:85)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.uri(HttpRequestBuilderImpl.java:71)
-	at java.net.http/jdk.internal.net.http.HttpRequestBuilderImpl.uri(HttpRequestBuilderImpl.java:43)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpMessages.createRequest(JdkHttpMessages.java:70)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:371)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	... 24 more
-... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>test1</h2><h3 id="m0">seliniumGridUsingDocker.ParallelTest#ParallelBrowserExecution</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>test2</h2><h3 id="m1">seliniumGridUsingDocker.ParallelTest#ParallelBrowserExecution</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>test3</h2><h3 id="m2">seliniumGridUsingDocker.ParallelTest#ParallelBrowserExecution</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

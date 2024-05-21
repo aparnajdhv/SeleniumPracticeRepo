@@ -34,8 +34,10 @@ public class GET_RequestExample {
 	  		
 	  		.then()
 	  		.statusCode(200)
-	  		.body("data[2].id", equalTo(9));
-//	  		.log().body();
+	  		.body("data[2].id", equalTo(9))
+	  		.body("data.id",hasItems(7,12,11))
+	  		.body("data.id", contains(7,8,9,10,11,12))
+	  		.log().body();
   }
   
 }

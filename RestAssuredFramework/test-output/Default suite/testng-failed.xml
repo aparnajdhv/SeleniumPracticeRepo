@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BDD_examples.GET_RequestExample">
+      <class name="BDD_examples.UpdateDelete">
         <methods>
-          <include name="ListOFUser_Request"/>
+          <include name="UpdateRecord"/>
         </methods>
-      </class> <!-- BDD_examples.GET_RequestExample -->
+      </class> <!-- BDD_examples.UpdateDelete -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,4 @@
-# Created at 2024-05-13T15:30:26.379
+# Created at 2024-05-21T16:43:33.036
 Boot Manifest-JAR contains absolute paths in classpath 'D:\Start Ageil\Selenium\selinium_practice\CRMAutomation\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root

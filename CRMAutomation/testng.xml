@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <suite name="Suite" parallel="tests">
-  <test thread-count="5" name="ChromeParallerTestExecution">
-  <parameter name="browserName" value="chrome"></parameter>
+  <test thread-count="5" name="test1">
+  <parameter name="browserName" value="chrome" />
     <classes>
       <class name="seliniumGridUsingDocker.ParallelTest"/>
     </classes>
   </test> <!-- ParallerTestExecution -->
   
-  <test thread-count="5" name="FirefoxParallerTestExecution">
-  <parameter name="browserName" value="firefox"></parameter>
+  <test thread-count="5" name="test2">
+  <parameter name="browserName" value="firefox"/>
     <classes>
       <class name="seliniumGridUsingDocker.ParallelTest"/>
     </classes>
   </test> <!-- ParallerTestExecution -->
   
-  <test thread-count="5" name="EdgeParallerTestExecution">
-  <parameter name="browserName" value="edge"></parameter>
+  <test thread-count="5" name="test3">
+  <parameter name="browserName" value="edge"/>
     <classes>
       <class name="seliniumGridUsingDocker.ParallelTest"/>
     </classes>

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CRM.TestCase.DashboardPageTest">
+      <class name="seliniumGridUsingDocker.ParallelTest">
         <methods>
-          <include name="browserSetUp"/>
-          <include name="closeDriver"/>
-          <include name="validateDashboard"/>
+          <include name="ParallelBrowserExecution"/>
         </methods>
-      </class> <!-- com.CRM.TestCase.DashboardPageTest -->
+      </class> <!-- seliniumGridUsingDocker.ParallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
