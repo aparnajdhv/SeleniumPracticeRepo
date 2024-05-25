@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T17:14:27 IST" name="Suite" finished-at="2024-05-21T17:15:47 IST" duration-ms="79451">
+  <suite started-at="2024-05-21T18:41:32 IST" name="Suite" finished-at="2024-05-21T18:42:52 IST" duration-ms="79543">
     <groups>
     </groups>
-    <test started-at="2024-05-21T17:14:27 IST" name="test1" finished-at="2024-05-21T17:15:32 IST" duration-ms="64827">
+    <test started-at="2024-05-21T18:41:32 IST" name="test1" finished-at="2024-05-21T18:42:48 IST" duration-ms="75725">
       <class name="seliniumGridUsingDocker.ParallelTest">
-        <test-method signature="ParallelBrowserExecution(java.lang.String)[pri:0, instance:seliniumGridUsingDocker.ParallelTest@6d763516]" started-at="2024-05-21T17:14:28 IST" name="ParallelBrowserExecution" finished-at="2024-05-21T17:15:32 IST" duration-ms="64652" status="PASS">
+        <test-method signature="ParallelBrowserExecution(java.lang.String)[pri:0, instance:seliniumGridUsingDocker.ParallelTest@6d763516]" started-at="2024-05-21T18:41:33 IST" name="ParallelBrowserExecution" finished-at="2024-05-21T18:42:48 IST" duration-ms="75605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,24 +20,9 @@
         </test-method> <!-- ParallelBrowserExecution -->
       </class> <!-- seliniumGridUsingDocker.ParallelTest -->
     </test> <!-- test1 -->
-    <test started-at="2024-05-21T17:14:27 IST" name="test2" finished-at="2024-05-21T17:15:47 IST" duration-ms="79163">
+    <test started-at="2024-05-21T18:41:32 IST" name="test3" finished-at="2024-05-21T18:42:50 IST" duration-ms="77736">
       <class name="seliniumGridUsingDocker.ParallelTest">
-        <test-method signature="ParallelBrowserExecution(java.lang.String)[pri:0, instance:seliniumGridUsingDocker.ParallelTest@4c583ecf]" started-at="2024-05-21T17:14:28 IST" name="ParallelBrowserExecution" finished-at="2024-05-21T17:15:47 IST" duration-ms="79002" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ParallelBrowserExecution -->
-      </class> <!-- seliniumGridUsingDocker.ParallelTest -->
-    </test> <!-- test2 -->
-    <test started-at="2024-05-21T17:14:27 IST" name="test3" finished-at="2024-05-21T17:15:47 IST" duration-ms="79447">
-      <class name="seliniumGridUsingDocker.ParallelTest">
-        <test-method signature="ParallelBrowserExecution(java.lang.String)[pri:0, instance:seliniumGridUsingDocker.ParallelTest@7b2bbc3]" started-at="2024-05-21T17:14:28 IST" name="ParallelBrowserExecution" finished-at="2024-05-21T17:15:47 IST" duration-ms="79293" status="PASS">
+        <test-method signature="ParallelBrowserExecution(java.lang.String)[pri:0, instance:seliniumGridUsingDocker.ParallelTest@7b2bbc3]" started-at="2024-05-21T18:41:33 IST" name="ParallelBrowserExecution" finished-at="2024-05-21T18:42:50 IST" duration-ms="77637" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,5 +35,20 @@
         </test-method> <!-- ParallelBrowserExecution -->
       </class> <!-- seliniumGridUsingDocker.ParallelTest -->
     </test> <!-- test3 -->
+    <test started-at="2024-05-21T18:41:32 IST" name="test2" finished-at="2024-05-21T18:42:52 IST" duration-ms="79543">
+      <class name="seliniumGridUsingDocker.ParallelTest">
+        <test-method signature="ParallelBrowserExecution(java.lang.String)[pri:0, instance:seliniumGridUsingDocker.ParallelTest@4c583ecf]" started-at="2024-05-21T18:41:33 IST" name="ParallelBrowserExecution" finished-at="2024-05-21T18:42:52 IST" duration-ms="79431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParallelBrowserExecution -->
+      </class> <!-- seliniumGridUsingDocker.ParallelTest -->
+    </test> <!-- test2 -->
   </suite> <!-- Suite -->
 </testng-results>

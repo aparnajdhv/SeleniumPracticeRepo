@@ -1,5 +1,4 @@
 package seliniumGridUsingDocker;
-
 import org.testng.annotations.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -11,9 +10,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class ParallelTest {
-	WebDriver driver;
-	
-	
+	WebDriver driver;		
   @Test
   @Parameters("browserName")
   public void ParallelBrowserExecution(String browserName) throws MalformedURLException, InterruptedException {
@@ -22,20 +19,17 @@ public class ParallelTest {
 		
 		ChromeOptions options=new ChromeOptions();
 		driver=new RemoteWebDriver(new URL("http://localhost:4444"),options);
-		System.out.println("Remote connection with Chrome done !");
-		
+		System.out.println("Remote connection with Chrome done !");		
 	}else if(browserName.equalsIgnoreCase("firefox")){
 		
 		FirefoxOptions options=new FirefoxOptions();
 		driver=new RemoteWebDriver(new URL("http://localhost:4444"),options);
-		System.out.println("Remote connection with Firefox done !");
-		
+		System.out.println("Remote connection with Firefox done !");		
 	}else if(browserName.equalsIgnoreCase("edge")){
 		
 		EdgeOptions options=new EdgeOptions();
 		driver=new RemoteWebDriver(new URL("http://localhost:4444"),options);
-		System.out.println("Remote connection with Edge done !");
-		
+		System.out.println("Remote connection with Edge done !");		
 	}
 	System.out.println("Remote connection done !");
 	Thread.sleep(5000);
