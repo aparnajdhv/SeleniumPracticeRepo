@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BDD_examples.UpdateDelete">
+      <class name="BDD_examples.HeaderTest">
         <methods>
-          <include name="UpdateRecord"/>
+          <include name="headerTestDemo"/>
         </methods>
-      </class> <!-- BDD_examples.UpdateDelete -->
+      </class> <!-- BDD_examples.HeaderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

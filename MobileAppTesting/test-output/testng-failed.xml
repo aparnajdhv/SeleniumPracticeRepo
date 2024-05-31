@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AppiumDemo.DriverSessionWithUiAutomator">
+      <class name="ElementsWithGestures.KeyboardHandling">
         <methods>
-          <include name="testSession"/>
+          <include name="setUp"/>
+          <include name="testKeyboard"/>
         </methods>
-      </class> <!-- AppiumDemo.DriverSessionWithUiAutomator -->
+      </class> <!-- ElementsWithGestures.KeyboardHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,15 +2,11 @@ package BDD_examples;
 
 import org.testng.annotations.Test;
 import io.restassured.response.Response;
-import jdk.internal.net.http.common.Log;
-
+import jdk.internal.net.http.common.Log;	
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
-
 import java.util.HashMap;
-
-
 
 public class POST_RequestWays {
   @Test
@@ -59,12 +55,7 @@ public class POST_RequestWays {
   		
   			//validation for java object
   			System.out.println(data.getName().equals("ShriLaxmi"));
-  			System.out.println(data.getJob().equals("Management"));
-  			
+  			System.out.println(data.getJob().equals("Management"));  			
   		
-  	}
-  
-  
-  
-  
+  	}  
 }
